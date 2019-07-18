@@ -6,16 +6,10 @@ public class main {
 
     public static void main(String[] args) {
 
-        //JOptionPane.showMessageDialog(null, "Ha respondido correctamente. Felicitaciones..","Respuesta", JOptionPane.DEFAULT_OPTION);
         PreguntaRespuesta bancoPreguntas = new PreguntaRespuesta();
         String pregunta[][] = bancoPreguntas.getPreguntaRespuesta();
-
         int opcionMenu = 0;
-        /*for (int i = 0; i < pregunta.length; i++){
-            for (int j = 0; j < pregunta[i].length; j++){
-                System.out.println(pregunta[i][j]);
-            }
-        }*/
+
         while (opcionMenu != 4){
             try {
                 String jugadores = "";
@@ -49,8 +43,8 @@ public class main {
                                                 "<p>E. Ayuda"+
                                                 "</html>", "Juego de Preguntas", JOptionPane.INFORMATION_MESSAGE);
                                         if(respuestaPregunta.contentEquals("e")){
-                                            System.out.println("entre aquie");
-                                            Ayuda ayuda = new Ayuda(pregunta, preguntaAleatoria);
+
+                                            Ayuda ayuda = new Ayuda(pregunta, preguntaAleatoria, nombreJugador);
                                             respuestaPregunta = ayuda.getMensaje();
                                             Respuesta validarRespuesta = new Respuesta(pregunta, preguntaAleatoria, respuestaPregunta );
                                             if (validarRespuesta.isEstado()){
