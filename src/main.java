@@ -9,7 +9,7 @@ public class main {
         //JOptionPane.showMessageDialog(null, "Ha respondido correctamente. Felicitaciones..","Respuesta", JOptionPane.DEFAULT_OPTION);
         PreguntaRespuesta bancoPreguntas = new PreguntaRespuesta();
         String pregunta[][] = bancoPreguntas.getPreguntaRespuesta();
-        String jugadores = "";
+
         int opcionMenu = 0;
         /*for (int i = 0; i < pregunta.length; i++){
             for (int j = 0; j < pregunta[i].length; j++){
@@ -18,6 +18,7 @@ public class main {
         }*/
         while (opcionMenu != 4){
             try {
+                String jugadores = "";
                 String opcionMenuTexto = JOptionPane.showInputDialog(null, "Ingresa la siguiente opcion:\n"
                         + "1. Jugar\n"
                         + "2. Instrucciones\n"
@@ -44,20 +45,27 @@ public class main {
                                                 "<p>A. "+ pregunta[preguntaAleatoria][1] +"</p> "+
                                                 "<p>B. "+ pregunta[preguntaAleatoria][2] +"</p> "+
                                                 "<p>C. "+ pregunta[preguntaAleatoria][3] +"</p> "+
-                                                "<p>D. "+ pregunta[preguntaAleatoria][4] +"</p> "+
+                                                "<p>D. "+ pregunta[preguntaAleatoria][4] +"</p> " +
+                                                "<p>E. Ayuda"+
                                                 "</html>", "Juego de Preguntas", JOptionPane.INFORMATION_MESSAGE);
-
-                                        if (respuestaPregunta.equalsIgnoreCase(pregunta[preguntaAleatoria][5])){
-                                            JOptionPane.showMessageDialog(null, "Respuesta correcta");
-                                            puntaje = puntaje+10;
+                                        if(respuestaPregunta.contentEquals("e")){
+                                            System.out.println("entre aquie");
+                                            Ayuda ayuda = new Ayuda(pregunta, preguntaAleatoria);
+                                            respuestaPregunta = ayuda.getMensaje();
+                                            Respuesta validarRespuesta = new Respuesta(pregunta, preguntaAleatoria, respuestaPregunta );
+                                            if (validarRespuesta.isEstado()){
+                                                puntaje = puntaje+10;
+                                            }
                                         }else{
-                                            JOptionPane.showMessageDialog(null, "Respuesta incorrecta");
+                                            Respuesta validarRespuesta = new Respuesta(pregunta, preguntaAleatoria, respuestaPregunta );
+                                            if (validarRespuesta.isEstado()){
+                                                puntaje = puntaje+10;
+                                            }
                                         }
+
                                     }
                                     jugador.setPuntaje(String.valueOf(puntaje));
-                                    String resultadoJugadorNombre = jugador.getNombre();
-                                    String resultadoJugadorPuntaje = jugador.getPuntaje();
-                                    jugadores= jugadores +resultadoJugadorNombre + " Puntaje: " + resultadoJugadorPuntaje + "\n";
+                                    jugadores= jugadores +jugador.getNombre() + " Puntaje: " + jugador.getPuntaje() + "\n";
                                 }
                                 jugadorValido = false;
                             } catch (Exception e) {
