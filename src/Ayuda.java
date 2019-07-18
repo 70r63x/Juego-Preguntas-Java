@@ -1,7 +1,7 @@
 import javax.swing.*;
 
 public class Ayuda {
-    String mensaje;
+    private String mensaje;
 
     public Ayuda(String preguntas[][],int preguntaAleatoria) {
         switch (preguntas[preguntaAleatoria][5]) {

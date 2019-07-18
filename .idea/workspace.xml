@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="987d4261-92af-41f8-8ceb-0279d8ceb35a" name="Default Changelist" comment="crear proyecto java juego">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ayuda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ayuda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Respuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Respuesta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +17,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="46" column="98" lean-forward="true" selection-start-line="46" selection-start-column="98" selection-end-line="46" selection-end-column="98" />
+            <state relative-caret-position="289">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="851.0" y="33.0">PreguntaRespuesta</node>
+                <node x="518.125" y="273.0">main</node>
+                <node x="0.0" y="33.0">creditoJuego</node>
+                <node x="616.0" y="33.0">Respuesta</node>
+                <node x="215.0" y="0.0">Jugador</node>
+                <node x="1115.0" y="33.0">Ayuda</node>
+                <node x="406.0" y="33.0">ReglasJuego</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="main" target="PreguntaRespuesta">
+                  <point x="37.91666666666663" y="-35.5" />
+                  <point x="647.0416666666665" y="223.0" />
+                  <point x="912.0" y="223.0" />
+                  <point x="-61.0" y="58.5" />
+                </edge>
+                <edge source="main" target="Jugador">
+                  <point x="-53.08333333333326" y="-35.5" />
+                  <point x="556.0416666666667" y="233.0" />
+                  <point x="257.75" y="233.0" />
+                  <point x="-42.75" y="91.5" />
+                </edge>
+                <edge source="main" target="Ayuda">
+                  <point x="83.41666666666663" y="-35.5" />
+                  <point x="692.5416666666665" y="253.0" />
+                  <point x="1243.25" y="253.0" />
+                  <point x="42.75" y="58.5" />
+                </edge>
+                <edge source="main" target="Respuesta">
+                  <point x="22.75" y="-35.5" />
+                  <point x="631.875" y="213.0" />
+                  <point x="777.25" y="213.0" />
+                  <point x="53.75" y="58.5" />
+                </edge>
+                <edge source="main" target="ReglasJuego">
+                  <point x="-22.75" y="-35.5" />
+                  <point x="586.375" y="213.0" />
+                  <point x="453.5" y="213.0" />
+                  <point x="-47.5" y="58.5" />
+                </edge>
+                <edge source="main" target="creditoJuego">
+                  <point x="-68.25" y="-35.5" />
+                  <point x="540.875" y="243.0" />
+                  <point x="146.25" y="243.0" />
+                  <point x="48.75" y="58.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="643.0" y="172.0" />
+              <SelectedNodes>
+                <node>Respuesta</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -29,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Respuesta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding>
                 <element signature="e#165#166#0" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
@@ -44,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Ayuda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="37" column="77" lean-forward="true" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding>
                 <element signature="e#819#820#0" expanded="true" />
                 <element signature="e#849#850#0" expanded="true" />
@@ -139,8 +208,8 @@
         <option value="$PROJECT_DIR$/src/creditoJuego.java" />
         <option value="$PROJECT_DIR$/src/ReglasJuego.java" />
         <option value="$PROJECT_DIR$/src/PreguntaRespuesta.java" />
-        <option value="$PROJECT_DIR$/src/Respuesta.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/src/Respuesta.java" />
         <option value="$PROJECT_DIR$/src/Ayuda.java" />
       </list>
     </option>
@@ -224,18 +293,17 @@
       <option name="presentableId" value="Default" />
       <updated>1563224560445</updated>
       <workItem from="1563224563467" duration="1423000" />
-      <workItem from="1563376321159" duration="41175000" />
+      <workItem from="1563376321159" duration="42024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42598000" />
+    <option name="totallyTimeSpent" value="43447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1448" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14899713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.021489972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -333,83 +401,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="616.0" y="33.0">PreguntaRespuesta</node>
-            <node x="307.375" y="253.0">main</node>
-            <node x="0.0" y="33.0">creditoJuego</node>
-            <node x="215.0" y="0.0">Jugador</node>
-            <node x="406.0" y="33.0">ReglasJuego</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="main" target="Jugador">
-              <point x="-34.125" y="-35.5" />
-              <point x="364.25" y="213.0" />
-              <point x="257.75" y="213.0" />
-              <point x="-42.75" y="91.5" />
-            </edge>
-            <edge source="main" target="PreguntaRespuesta">
-              <point x="56.875" y="-35.5" />
-              <point x="455.25" y="223.0" />
-              <point x="677.0" y="223.0" />
-              <point x="-61.0" y="58.5" />
-            </edge>
-            <edge source="main" target="ReglasJuego">
-              <point x="34.125" y="-35.5" />
-              <point x="432.5" y="213.0" />
-              <point x="548.5" y="213.0" />
-              <point x="47.5" y="58.5" />
-            </edge>
-            <edge source="main" target="creditoJuego">
-              <point x="-56.875" y="-35.5" />
-              <point x="341.5" y="223.0" />
-              <point x="146.25" y="223.0" />
-              <point x="48.75" y="58.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-54.0" y="220.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReglasJuego.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PreguntaRespuesta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ayuda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Jugador.java">
@@ -442,10 +459,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReglasJuego.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="83" selection-start-line="9" selection-start-column="83" selection-end-line="9" selection-end-column="83" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PreguntaRespuesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Respuesta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding>
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
@@ -455,23 +492,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ayuda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="77" lean-forward="true" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="77" />
-          <folding>
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="46" column="98" lean-forward="true" selection-start-line="46" selection-start-column="98" selection-end-line="46" selection-end-column="98" />
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="851.0" y="33.0">PreguntaRespuesta</node>
+            <node x="518.125" y="273.0">main</node>
+            <node x="0.0" y="33.0">creditoJuego</node>
+            <node x="616.0" y="33.0">Respuesta</node>
+            <node x="215.0" y="0.0">Jugador</node>
+            <node x="1115.0" y="33.0">Ayuda</node>
+            <node x="406.0" y="33.0">ReglasJuego</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="main" target="PreguntaRespuesta">
+              <point x="37.91666666666663" y="-35.5" />
+              <point x="647.0416666666665" y="223.0" />
+              <point x="912.0" y="223.0" />
+              <point x="-61.0" y="58.5" />
+            </edge>
+            <edge source="main" target="Jugador">
+              <point x="-53.08333333333326" y="-35.5" />
+              <point x="556.0416666666667" y="233.0" />
+              <point x="257.75" y="233.0" />
+              <point x="-42.75" y="91.5" />
+            </edge>
+            <edge source="main" target="Ayuda">
+              <point x="83.41666666666663" y="-35.5" />
+              <point x="692.5416666666665" y="253.0" />
+              <point x="1243.25" y="253.0" />
+              <point x="42.75" y="58.5" />
+            </edge>
+            <edge source="main" target="Respuesta">
+              <point x="22.75" y="-35.5" />
+              <point x="631.875" y="213.0" />
+              <point x="777.25" y="213.0" />
+              <point x="53.75" y="58.5" />
+            </edge>
+            <edge source="main" target="ReglasJuego">
+              <point x="-22.75" y="-35.5" />
+              <point x="586.375" y="213.0" />
+              <point x="453.5" y="213.0" />
+              <point x="-47.5" y="58.5" />
+            </edge>
+            <edge source="main" target="creditoJuego">
+              <point x="-68.25" y="-35.5" />
+              <point x="540.875" y="243.0" />
+              <point x="146.25" y="243.0" />
+              <point x="48.75" y="58.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="643.0" y="172.0" />
+          <SelectedNodes>
+            <node>Respuesta</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

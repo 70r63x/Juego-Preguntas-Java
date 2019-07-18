@@ -1,7 +1,7 @@
 import javax.swing.*;
 
 public class Respuesta {
-    boolean estado;
+    private boolean estado;
 
     public Respuesta(String pregunta[][],int preguntaAleatoria, String respuesta) {
 
