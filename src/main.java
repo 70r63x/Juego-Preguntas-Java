@@ -31,8 +31,18 @@ public class main {
                                     String nombreJugador = JOptionPane.showInputDialog(null,"Iniciar partida\n" + "Ingrese nombre Jugador " + i, "Juego de Preguntas", JOptionPane.INFORMATION_MESSAGE);
                                     Jugador jugador = new Jugador(nombreJugador, "0");
                                     int puntaje = 0;
+                                    int aleatorioSeguro = 0;
                                     for (int j = 1; j <= 5; j++) {
                                         int preguntaAleatoria = (int)(Math.random()*(pregunta.length))+1;
+                                        if (preguntaAleatoria == aleatorioSeguro){
+                                            if (preguntaAleatoria == 20){
+                                                preguntaAleatoria = preguntaAleatoria-1;
+                                            }else{
+                                                preguntaAleatoria = preguntaAleatoria+1;
+                                            }
+                                        }
+                                        aleatorioSeguro = preguntaAleatoria;
+                                        System.out.println(preguntaAleatoria);
                                         String respuestaPregunta = JOptionPane.showInputDialog(null, "<html>" +
                                                 "<h5>Jugando ahora: <strong>"+ nombreJugador +"</strong></h5>" +
                                                 "<p>Pregunta N°"+ j +"<h3>"+ pregunta[preguntaAleatoria][0] +"</h3></p>" +
