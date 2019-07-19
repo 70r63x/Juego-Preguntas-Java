@@ -42,7 +42,6 @@ public class main {
                                             }
                                         }
                                         aleatorioSeguro = preguntaAleatoria;
-                                        System.out.println(preguntaAleatoria);
                                         String respuestaPregunta = JOptionPane.showInputDialog(null, "<html>" +
                                                 "<h5>Jugando ahora: <strong>"+ nombreJugador +"</strong></h5>" +
                                                 "<p>Pregunta N°"+ j +"<h3>"+ pregunta[preguntaAleatoria][0] +"</h3></p>" +
